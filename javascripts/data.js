@@ -42,11 +42,11 @@ const initializer = () => {
 };
 
 const getNouns = () => {
-  return nouns[0].text;
+  return nouns[Math.floor(Math.random() * nouns.length)].text;
 };
 
 const getDescriptors = () => {
-  return descriptors[0].text;
+  return descriptors[Math.floor(Math.random() * descriptors.length)].text;
 };
 
 module.exports = {
