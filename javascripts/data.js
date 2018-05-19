@@ -41,6 +41,16 @@ const initializer = () => {
   getAllData();
 };
 
+const getNouns = () => {
+  return nouns;
+};
+
+const getDescriptors = () => {
+  return descriptors;
+};
+
 module.exports = {
   initializer,
+  getDescriptors,
+  getNouns,
 };

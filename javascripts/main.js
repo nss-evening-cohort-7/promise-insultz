@@ -5,6 +5,7 @@
 // generate a random number between 0 and length of array
 
 const data = require('./data');
+require('./events');
 
 $(document).ready(() => {
   data.initializer();

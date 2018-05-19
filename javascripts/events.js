@@ -1,0 +1,3 @@
+$('#rude').click(() => {
+  // build domstring
+});
